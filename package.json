@@ -1,0 +1,32 @@
+{
+  "name": "passaporte",
+  "version": "1.0.0",
+  "description": "passaporte",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rubensjesusarruda/ws_2019_av.git"
+  },
+  "keywords": [
+    "jwt"
+  ],
+  "author": "Rubens Jesus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rubensjesusarruda/ws_2019_av/issues"
+  },
+  "homepage": "https://github.com/rubensjesusarruda/ws_2019_av#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "jwt-decode": "^2.2.0",
+    "mongoose": "^5.6.2",
+    "morgan": "^1.9.1"
+  }
+}
