@@ -15,7 +15,6 @@ var gracefullShutdown = (msg, callback) =>
         callback();
     });
 
-
 process.once('SIGUSR2', () =>
     gracefullShutdown('npm restart', () => process.kill(process.pid, 'SIGUSR2'))
 );

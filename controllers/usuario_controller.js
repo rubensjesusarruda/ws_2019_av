@@ -8,9 +8,6 @@ const config = require('../config');
 
 
 
-
-
-
 const senhaValida = (usuario, senha) => {
     let hash = crypto.pbkdf2Sync(senha, usuario.salt, 1000, 64, 'sha512').toString('hex');
     return usuario.hash === hash;
@@ -24,7 +21,7 @@ const geraJwt = (usuario) => {
 };
 
 const controller = {
-    
+
 }
 
 
